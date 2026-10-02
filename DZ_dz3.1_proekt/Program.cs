@@ -166,7 +166,7 @@ namespace MyApp
 
                     BottlesShop status = prices.Calculate();
 
-                    if (status == BottlesShop.Empty)
+                    if (status == BottlesShop.Savings)
                     {
                         Console.WriteLine($"Нужно следующее количество бутылок: {prices.BottlesNeeded} ");
                     }
