@@ -25,12 +25,12 @@ namespace MyApp
         {
             public string name;
             public string city;
-            public int yearOfBirth;
+            public int age;
             public int pinCode;
 
             public void Print()
             {
-                Console.WriteLine($"Персонаж по имени {name} , из города - {city}, возраст - {yearOfBirth}л {pinCode}");
+                Console.WriteLine($"Персонаж по имени {name} , из города - {city}, возраст - {age}л {pinCode}");
             }
 
         }
@@ -117,8 +117,8 @@ namespace MyApp
                     Person person = new Person();
                     person.name = "Петя";
                     person.city = "Казань";
-                    int age = 2005;
-                    person.yearOfBirth = 2026 - age;
+                    int yearOfBirth = 2005;
+                    person.age = 2026 - yearOfBirth;
                     person.pinCode = 1234;
                     person.Print();
 
