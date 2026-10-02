@@ -118,7 +118,7 @@ namespace MyApp
                     person.name = "Петя";
                     person.city = "Казань";
                     int age = 2005;
-                    person.yearOfBirth = 2025 - age;
+                    person.yearOfBirth = 2026 - age;
                     person.pinCode = 1234;
                     person.Print();
 
